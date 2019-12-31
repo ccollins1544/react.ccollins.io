@@ -13,6 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy-production": "react-scripts build && scp -r ./build/* ccollins@react.ccollins.io:/var/www/react.ccollins.io/html/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
