@@ -19,10 +19,6 @@ function App() {
           Learn React
         </a>
       </header>
-<<<<<<< HEAD
-=======
-      <small>comming soon...</small>
->>>>>>> da2e94605fde12be2cc42511350a7d9ae4c7b824
     </div>
   );
 }
