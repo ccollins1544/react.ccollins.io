@@ -1,5 +1,6 @@
 {
   "name": "react.ccollins.io",
+  "homepage": "https://react.ccollins.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy-production": "react-scripts build && scp -r ./build/* ccollins@react.ccollins.io:/var/www/react.ccollins.io/html/",
+    "deploy-dev": "react-scripts build && scp -r ./build/* cjc@dev.ccollins.io:/home/cjc/domains/dev.ccollins.io/public_html/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
